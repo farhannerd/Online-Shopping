@@ -1,0 +1,15 @@
+
+.themeLight {
+  --bg-color: rgb(255, 248, 232);
+  --text-color: rgb(103, 70, 54);
+}
+
+.themeDark {
+  --bg-color: rgb(246, 233, 107);
+  --text-color: rgb(56, 127, 57);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
